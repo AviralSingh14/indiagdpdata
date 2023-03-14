@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+    height: 100vh;
+    background-image: url("https://www.thoughtco.com/thmb/_sN5LfMVPjaYGJ7_Pjc9Iq64Upo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/mumbai-skyline-from-malabar-hill-mumbai-maharashtra-india-asia-547416209-58b9cb8b5f9b58af5ca70b8e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'oswald','sans-serif';
+  }
+
+  #container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  #title{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  #graph-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 60%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+  }
